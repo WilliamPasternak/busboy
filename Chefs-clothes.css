@@ -1,0 +1,187 @@
+
+
+// ============ Chef's Clothes ============== //
+*  {  margin:0; padding:0;}
+
+// Dot Styling
+.tooltip   {  
+  position: absolute;
+  float: right;
+  display: inline-block;
+  width: 16px;  //15
+  height: 16px; 
+  border-radius: 50%;
+  background: #fff; 
+  box-shadow: 0 0 2px 2px rgba(0,0,0,.5);
+}
+
+.tooltip:hover {
+          -webkit-animation-play-state: paused;  
+}
+
+// Color Block Resizing On Hover
+.tooltip:hover .info {
+  visibility:visible;
+  animation-name: grow-shrink;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes grow-shrink {
+  20% { transform: scale(1.0); }
+  65% { transform: scale(0.9); }
+}
+ 
+// Position of Dots
+
+// Yankee Hat
+#first   {    
+		top: 14%; 
+ 		 right: 50%;
+} 
+
+// Watch
+#second   {   
+ 	top: 75%;
+  	left: 53%;
+} 
+
+// Cup              
+#third   {  
+  bottom: 8%;
+  right: 50%;
+} 
+
+
+// Pop-Out Box Styling
+.info     {   
+  width:350px; 
+  height: 100px;
+  background:rgba(87,131,81,0.99);
+  border-radius:3px;
+  position:absolute;
+  visibility:hidden;
+  left: 15%;
+  bottom: 15%;
+  box-shadow:0 0 50px 0 rgba(0,0,0,.5);
+  line-height: 1rem;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Georgia', sans-serif;
+  font-weight: 500;
+}
+
+// Individual Box Color
+#popout-1{
+   background:rgba(0,131,0,0.95);
+}
+
+#popout-2{
+   background:rgba(131,0,0,0.95);
+}
+
+#popout-3{
+   background:rgba(0,0,131,0.95);
+}
+
+// Item Name on pop-out
+.item{
+	font-size: 1rem;
+  	line-height: 1.5rem;  
+    color: #FFF;
+  	text-align: center;
+  	margin: 4% 0 0 0;    // Maintains spacing between title and button
+}
+
+.item:hover{
+  font-size:1.3rem;
+}
+
+// Button Styling for pop-out
+.add-to-cart{
+  border: 1px solid white;
+  padding: 2% 4%;
+  color: #FFF;
+  margin-left: 40%;
+  width: 10%;
+  text-align: center;
+}
+
+// Button Styling on Hover for Popout
+.add-to-cart:hover{
+  background: white;
+  color: black;
+}
+
+.info a {
+  display: block;
+}
+//
+// ============ Mobile Chef's Clothes  ============== //
+// Position of Dots
+  
+  // Yankee Hat
+#first   {   
+    top: 14%; 
+     right: 50%;
+} 
+
+// Watch
+#second   {   
+  top: 70%;
+    left: 53%;
+} 
+              
+  // Cup
+#third   {  
+  bottom: 15%;
+  right: 50%;
+} 
+
+// Mobile Pop-Out Box Styling
+.info     {   
+  width:150px; 
+  height: 75px;
+  background:rgba(87,140,81,0.99);
+  border-radius:3px;
+  position:absolute;
+  visibility:hidden;
+  left: 15%;
+  bottom: 15%;
+  box-shadow:0 0 50px 0 rgba(0,0,0,.5);
+  line-height: 1rem;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Didot', serif;
+  font-weight: 300;
+
+}
+
+// Mobile Item Name on pop-out
+.item{
+  font-size: 1rem;
+    line-height: 1.5rem;  
+    color: #FFF;
+    text-align: center;
+    margin: 4% 0 0 0;    // Maintains spacing between title and button
+}
+
+.item:hover{
+  font-size:1.3rem;
+}
+
+// Mobile Button on pop-out
+.add-to-cart{
+  border: 1px solid white;
+  padding: 2% 4%;
+  color: #FFF;
+  margin-left: 35%;
+  width: 20%;
+  text-align: center;
+}
+
+.info a {
+  display: block;
+}
+   
+}
+

@@ -1,0 +1,30 @@
+
+// ============ Dancing Tip Jar ============== //
+
+/*BASIC STYLES FOR ALL LINKS*/
+.header-nav-item a::before,
+.header-menu-nav-item a::before {
+  content: '';
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  display: inline-block;
+}
+
+div.header-nav-item a:hover {
+  	font-size: 1.2rem;
+  	color: red;
+  	font-style: italic;
+}
+
+.header-nav-item:nth-child(1) a::before, .header-menu-nav-item:nth-child(1) 
+
+a::before {
+  background: url('https://static1.squarespace.com/static/629ccbd77dbb4a7d54c44363/t/62ad26352151d125182c314a/1655514678048/TipJar.gif');
+  height: 2.5rem;
+  width: 2.5rem
+}
+
+// This sets the font of 'Tip Jar' to 1px so it can't be easily seen
+.header-nav-item:nth-child(1) {
+ font-size: 1px;
+}

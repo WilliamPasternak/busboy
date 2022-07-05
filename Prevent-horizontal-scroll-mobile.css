@@ -1,0 +1,5 @@
+// ============ Prevent Horizontal Scroll ============== //
+
+@media screen and (max-width:767px) {
+html, body {overflow-x: hidden;}
+}

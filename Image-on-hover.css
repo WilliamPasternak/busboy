@@ -1,0 +1,145 @@
+
+// ============ Image On Hover ============== //
+
+//image animations
+@-webkit-keyframes flip-in-hor-bottom {
+  0% {
+    -webkit-transform: rotateX(80deg);
+            transform: rotateX(80deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotateX(0);
+            transform: rotateX(0);
+    opacity: 1;
+  }
+}
+@keyframes flip-in-hor-bottom {
+  0% {
+    -webkit-transform: rotateX(80deg);
+            transform: rotateX(80deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotateX(0);
+            transform: rotateX(0);
+    opacity: 1;
+  }
+}
+
+// Hover Classes
+.title {
+  text-align:center;
+}
+
+.title:hover {
+   font-style:italic;
+   color: red;
+}
+
+.title:hover:before {
+  content: '';
+    width: 250px;
+    height: 250px;
+    display: block;
+    position: absolute;
+  	z-index: 1;
+}
+
+
+// ============ About Us Hover Code ============== //
+// Angel
+#ax:hover:before {
+    background: url('https://static1.squarespace.com/static/629ccbd77dbb4a7d54c44363/t/62a65bd2d4b1e2212931c36d/1655069650887/Angel+Pic.jpeg') center center no-repeat;
+	background-size: contain;
+  	position: absolute;
+  	left: 10%;
+  	top: -1%;
+}
+
+//Rebecca
+#rk:hover:before {
+    background: url('https://static1.squarespace.com/static/629ccbd77dbb4a7d54c44363/t/62a662119a8f7514ab658a8d/1655071250217/IMG_9458.jpg') center center no-repeat;
+	background-size: contain;
+  	position: absolute;
+  	left: 25%;
+}
+
+/* ============ Breakdown Code ============== */
+// Hover for breakdowns
+.breakdown {
+  text-align:center;
+   font-size:32px;
+   margin-bottom:30px;
+}
+
+.breakdown:hover {
+   font-style:italic;
+   color: red;
+    font-size: 55px;
+}
+// Image on Hover Ends
+
+.bdown {
+  text-align:center;
+   font-size:32px;
+   margin-bottom:30px;
+}
+
+.bdown:hover {
+   font-size:52px;
+   font-style:italic;
+   color:red;
+}
+
+.bdown:hover:before {
+    content: '';
+    width: 30vw;
+    height: 60vh;
+    display: block;
+    position: absolute;
+    right: 35vw;
+    top: 5vh;
+    background-size: contain;
+    margin: 0 auto 0% !important;
+}
+
+
+// ============ Individual Breakdown Code ============== //
+//Jon Louie
+#jl:hover:before {
+    background: url('https://uploads-ssl.webflow.com/5fad705e65232157d8e1f839/6270e05e12a7a20ee6ee9885_unnamed-2.jpg') center center no-repeat;
+  background-size: contain;
+    position: absolute;
+}
+
+// Ji Hye Kim
+#jk:hover:before {
+    background: url('https://uploads-ssl.webflow.com/5fad705e65232157d8e1f839/627d01d1b86f3b21acf8da2c_Screen%20Shot%202022-05-12%20at%202.38.28%20PM.png') center center no-repeat;
+  background-size: contain;
+    position: absolute;
+}
+
+// Skylar Barr
+#sb:hover:before {
+    background: url('https://uploads-ssl.webflow.com/5fad705e65232157d8e1f839/62836a18836353719574089c_unnamed-1%20(1).jpg') center center no-repeat;
+  background-size: contain;
+    position: absolute;
+}
+
+// Crystal Ung
+#cu:hover:before {
+    background: url('https://uploads-ssl.webflow.com/5fad705e65232157d8e1f839/6296c9f605b3a28c62381443_busboy3.jpeg') center center no-repeat;
+  background-size: contain;
+    position: absolute;
+}
+
+// ============ Collaborations Code ============== //
+// FRAME
+#frame:hover:before {
+  // Add Image if you want one
+    background: url('') center center no-repeat;
+  background-size: contain;
+    position: absolute;
+}
+

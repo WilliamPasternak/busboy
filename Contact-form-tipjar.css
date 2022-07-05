@@ -1,0 +1,45 @@
+// ============ Contact Form ============== //
+.form-wrapper .field-list .title {
+  text-align: left;
+}
+
+.form-wrapper{
+  background: url(https://static1.squarespace.com/static/629ccbd77dbb4a7d54c44363/t/62c309e4d5ed5368792f5539/1656949220882/TipJar.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 25% 25% 20% 12%;
+}
+
+// ============ Media Queries ============== //
+@media (max-width: 650px){ 
+  
+  // Mobile Contact Form
+  .form-wrapper{
+  background: url(https://static1.squarespace.com/static/629ccbd77dbb4a7d54c44363/t/62c309e4d5ed5368792f5539/1656949220882/TipJar.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 25%;
+}
+  
+  .form-wrapper .field-list .field {
+    padding-bottom: 1px;
+    margin: 0;
+    
+    // Mobile Contact Form Button
+    .button.sqs-system-button.sqs-editable-button{
+     color: red;
+      background: white;
+    }
+    
+}
+  
+  // Mobile Form Button
+  .button.sqs-system-button.sqs-editable-button {
+ 	background: rgb(187,224,245);
+    color: #000;
+    border: 1px solid black !important;
+    height: 25px;
+    width: 100px;
+    padding: 0 !important;
+    
+}

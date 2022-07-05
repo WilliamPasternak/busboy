@@ -1,0 +1,63 @@
+// ============ Home Page Hover Over Images ============== //
+.hotspots--wrapper{
+  max-width: 100vw;
+  height: 100vh;
+  border: 1px solid red;
+}
+
+
+// Dot Styling
+.tooltip-hs   {  
+  position: absolute;
+  float: right;
+  display: inline-block;
+  width: 50px;  
+  height: 50px; 
+  box-shadow: 0 0 2px 2px rgba(0,0,0,.5);
+}
+
+.tooltip-hs:hover{
+    background-repeat: no-repeat;
+   background-size: contain;
+  box-shadow: none;
+}
+ 
+// Position of Dots
+#hs-dot-1  {    
+	top: 15%; 
+ 	left: 15%;
+} 
+
+#hs-dot-2   {   
+ 	top: 75%;
+  	left: 53%;
+} 
+        
+#hs-dot-3  {  
+  bottom: 28%;
+  left: 45%;
+} 
+
+// Setting Individual Gif-Popouts
+#hs-dot-1:hover{
+  height: 70px;
+  width: 50px;
+  background: url(https://static1.squarespace.com/static/629ccbd77dbb4a7d54c44363/t/62ad26352151d125182c314a/1655514678048/TipJar.gif);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#hs-dot-2:hover{
+  height: 70px;
+  width: 50px;
+  background: url(https://static1.squarespace.com/static/629ccbd77dbb4a7d54c44363/t/62ad26352151d125182c314a/1655514678048/TipJar.gif);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#hs-dot-3:hover{
+  height: 70px;
+  width: 50px;
+  background: url(https://static1.squarespace.com/static/629ccbd77dbb4a7d54c44363/t/62ad26352151d125182c314a/1655514678048/TipJar.gif);
+  background-repeat: no-repeat;
+  background-size: contain;
+}

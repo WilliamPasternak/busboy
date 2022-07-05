@@ -1,0 +1,144 @@
+<section class="hotspots--wrapper">
+    <img src="https://static1.squarespace.com/static/629ccbd77dbb4a7d54c44363/t/62b61ef4f8b7136e96e25329/1656102647035/Blog1.png" class="hotspots--figure">
+
+<div id="container">
+  <div class="tooltip" id="first">
+    <!-- Hat -->
+    <div class="info"> 
+            <p class = 'item'> YANKEE'S HAT </p> 
+      <a href='https://lion-mouse-znrf.squarespace.com/shop/p/2022-year-of-the-tiger-shirt-escrc-rjk9r'> 
+      <p class='add-to-cart'> $40 </p> </a>
+      <div class="arrow"></div>
+    </div>
+      
+  </div>
+  
+  <div class="tooltip" id="second">
+    <!-- Watch -->
+      <div class="info"> 
+            <p class = 'item'> APPLE WATCH </p> 
+      <a href='https://lion-mouse-znrf.squarespace.com/shop/p/2022-year-of-the-tiger-shirt-escrc-rjk9r'> 
+      <p class='add-to-cart'> $40 </p> </a>
+      <div class="arrow"></div>
+    </div>
+  </div>
+  
+   <div class="tooltip" id="third">
+     <!-- Coffee Cup -->
+  <div class="info"> 
+            <p class = 'item'> COFFEE CUP </p> 
+      <a href='https://lion-mouse-znrf.squarespace.com/shop/p/2022-year-of-the-tiger-shirt-escrc-rjk9r'> 
+      <p class='add-to-cart'> $40 </p> </a>
+      <div class="arrow"></div>
+    </div>
+      
+  </div>
+  
+</div>
+</section>
+
+
+
+
+<!-- CSS For Above -->
+
+*  {  margin:0; padding:0;}
+
+// Pop Out Styling Begins
+
+// Dot Styling
+.tooltip   {  
+  position: absolute;
+  float: right;
+  display: inline-block;
+  width: 16px;  //15
+  height: 16px; 
+  border-radius: 50%;
+  background: #fff; 
+  //transition: all cubic-bezier(.8,0,.2,1) 2.4s; //.4s
+  box-shadow: 0 0 2px 2px rgba(0,0,0,.5);
+}
+
+	
+.tooltip:hover {
+          -webkit-animation-play-state: paused;  
+}
+
+.tooltip:hover .info {
+  visibility:visible;
+  animation-name: grow-shrink;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes grow-shrink {
+  20% { transform: scale(1.0); }
+  65% { transform: scale(0.9); }
+}
+ 
+// Position of Dots
+#first   {    // Yankee Hat
+		top: 14%; 
+ 		 right: 50%;
+} 
+
+#second   {   // Watch
+ 	top: 75%;
+  	left: 53%;
+} 
+              
+#third   {  // Cup
+  bottom: 8%;
+  right: 50%;
+} 
+
+
+// Pop-Out Box Styling
+.info     {   
+  width:350px; 
+  height: 100px;
+  background:rgba(87,131,81,0.95);
+  border-radius:3px;
+  position:absolute;
+  visibility:hidden;
+  left: 15%;
+  bottom: 15%;
+  box-shadow:0 0 50px 0 rgba(0,0,0,.5);
+  line-height: 1rem;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Didot', serif;
+  font-weight: 300;
+
+}
+
+// Item Name on pop-out
+.item{
+	font-size: 1rem;
+  	line-height: 1.5rem;  
+    color: #FFF;
+  	text-align: center;
+  	margin: 4% 0 0 0;    // Maintains spacing between title and button
+}
+
+.item:hover{
+  font-size:1.3rem;
+}
+
+// Button on pop-out
+.add-to-cart{
+  border: 1px solid white;
+  padding: 2% 4%;
+  color: #FFF;
+  margin-left: 40%;
+  width: 10%;
+  text-align: center;
+}
+
+.add-to-cart:hover{
+  background: white;
+  color: black;
+}
+
+.info a {
+  display: block;
+}

@@ -1,0 +1,144 @@
+<!--Dots that change on Hover -->
+
+<section class="hotspots--wrapper">
+  <img src="https://static1.squarespace.com/static/629ccbd77dbb4a7d54c44363/t/62b61ef4f8b7136e96e25329/1656102647035/Blog1.png" class="hotspots--figure">
+
+  <!-- Coffee Cup -->
+  <a class="hotspot hotspot--iphone" href="https://lion-mouse-znrf.squarespace.com/shop/p/2022-year-of-the-tiger-shirt"> 
+    <span class="hotspot--cta"></span>
+  </a>
+
+  <!-- Hat-->
+  <a class="hotspot hotspot--macbook" href="https://lion-mouse-znrf.squarespace.com/shop/p/2022-year-of-the-tiger-shirt-escrc-rjk9r">
+    <span class="hotspot--cta"></span>
+  </a>
+    <!-- Watch -->
+  <a class="hotspot hotspot--watch" href="https://lion-mouse-znrf.squarespace.com/shop/p/2022-year-of-the-tiger-shirt-escrc">
+    <span class="hotspot--cta"></span>
+  </a>
+</section>
+
+<!-- CSS For Above -->
+//Chef's Clothes
+
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro:500&display=swap');
+
+.hotspots--figure {
+  max-width: 100%;
+}
+
+.hotspot {
+  position: absolute;
+  display: block;
+}
+
+
+.hotspot--cta {
+  position: relative;
+  float: right;
+  display: inline-block;
+  width: 16px;  //15
+  height: 16px; 
+  border-radius: 50%;
+  background: #fff; 
+  transition: all cubic-bezier(.8,0,.2,1) .4s;
+  box-shadow: 0 0 2px 2px rgba(0,0,0,.5);
+}
+
+.hotspot--cta::after { 
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 10px; 
+  height: 10px; 
+  border-radius: 50%;
+  z-index: 1; 
+  transition: opacity .6s;
+}
+
+.hotspot:hover .hotspot--cta {
+  background: rgba(105,105,105,.5); 
+  box-shadow: none;
+  display: block;
+  transform: scale(1.2);
+}
+
+.hotspot:hover .hotspot--cta:after { // Inside Circle Styling
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 12px; 
+  height: 12px; 
+  border-radius: 50%;
+  z-index: 2; 
+  transition: opacity .6s;
+  background: #fff; 
+}
+
+@keyframes pulse {
+  0% {transform: scale(0.4);}
+  33% {transform: scale(1);}
+  66% {transform: scale(0.4);}
+  100% {transform: scale(0.4);}
+}
+
+.hotspot--iphone { // Coffee Cup
+  top: 84%;
+  right: 56%; //56
+}
+
+.hotspot--macbook { // Hat
+  top: 14%; 
+  right: 50%;
+}
+
+.hotspot--watch { // Watch
+  top: 75%;
+  left: 53%;
+}
+
+@media screen and (max-width: 640px) {
+  .hotspot--title {
+    line-height: 40px;
+    font-size: 10px;
+  }
+  .hotspot--cta {
+    width: 15px;
+    height: 15px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .hotspot--title {
+    line-height: 30px;
+    font-size: 9px;
+  }
+  .hotspot--cta {
+    width: 15px;
+    height: 15px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .hotspot--title {
+    display: none;
+  }
+  
+  .hotspot--cta {
+    width: 15px;
+    height: 15px;
+  }
+  .hotspot--cta::after {
+    width: 5px;
+    height: 5px;
+  }
+}
+//
