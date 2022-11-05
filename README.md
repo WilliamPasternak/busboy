@@ -23,25 +23,25 @@ Although the platform was restrictive in many ways, I found ways to implement cu
 ## More Projects
 <table bordercolor="#66b2b2">
   <tr>
-    <td width="33.3%"  style="align:center;" valign="top">
-<a target="_blank" href="https://github.com/WilliamPasternak/Dilution-Calculator">Cocktail Dilution Web App</a>
-        <br />
-      <a target="_blank" href="https://github.com/WilliamPasternak/Dilution-Calculator">
-            <img src="https://github.com/WilliamPasternak/Dilution-Calculator/raw/main/Dilution.gif" width="100%"  alt="Dilution Calculator"/>
-        </a>
-    </td>
-    <td width="33.3%" valign="top">
-<a target="_blank" href="https://github.com/WilliamPasternak/Little-Armenia-Cafe">Little Armenia Cafe Website</a> 
+ <td width="33.3%" valign="top">
+<a target="_blank" href="https://github.com/WilliamPasternak/Theophilio">Theophilio</a> 
       <br />
-        <a target="_blank" href="https://github.com/WilliamPasternak/Little-Armenia-Cafe">
-          <img src="https://github.com/WilliamPasternak/Little-Armenia-Cafe/blob/main/Little%20Armenia%20Cafe/LittleArmeniaCafecom_Site_Overview.gif" width="100%" alt="Matching Card Game"/>
+        <a target="_blank" href="https://github.com/WilliamPasternak/Theophilio">
+          <img src="https://github.com/WilliamPasternak/Theophilio/blob/main/Theophilio.png" width="100%" alt="Matching Card Game"/>
         </a>
     </td>
     <td width="33.3%" valign="top">
-<a target="_blank" href="https://github.com/WilliamPasternak/MovieNight">Movie Night Web App</a>
+<a target="_blank" href="https://github.com/WilliamPasternak/Dilution-Calculator">Dilution Calculator</a> 
+      <br />
+        <a target="_blank" href="https://github.com/WilliamPasternak/Dilution-Calculator">
+          <img src="https://github.com/WilliamPasternak/Dilution-Calculator/raw/main/Dilution.gif" width="100%" alt="Dilution Calculator Walkthrough"/>
+        </a>
+    </td>
+    <td width="33.3%" valign="top">
+<a target="_blank" href="https://github.com/WilliamPasternak/bread">bread</a>
         <br />
-        <a target="_blank" href="https://github.com/WilliamPasternak/MovieNight">
-          <img src="https://github.com/WilliamPasternak/MovieNight/blob/main/MovieNight%20Walkthrough.gif" width="100%" alt="Portfolio"/>
+        <a target="_blank" href="https://github.com/WilliamPasternak/bread">
+          <img src="https://github.com/WilliamPasternak/bread/blob/main/bread.gif" width="100%" alt="bread walkthrough gif"/>
         </a>
     </td>
   </tr>
